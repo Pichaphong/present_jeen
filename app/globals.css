@@ -28,3 +28,58 @@
 .transport input{width:100%;height:3px;accent-color:#e0a6b1;cursor:pointer}
 .transport time{min-width:58px;font:600 6px Arial;color:#d2cbce;text-align:right}
 .sound{cursor:pointer}
+
+/* Responsive type scale: keep the presentation readable without changing its content. */
+@media(min-width:901px){
+  .brand{font-size:10px;line-height:1.45}.count{font-size:18px}.count i{font-size:11px}
+  .rail button span,.rail button i{font-size:10px}.rail button.active i{width:150px}
+  .kicker{font-size:11px}.chapter span{font-size:12px}.chapter b{font-size:10px}
+  .translation{font-size:13px}.identity strong{font-size:clamp(16px,1.25vw,20px)}.identity small{font-size:12px}
+  .about-grid label{font-size:11px}.about-grid strong{font-size:clamp(16px,1.2vw,19px)}.about-grid p{font-size:14px}.about-grid small{font-size:11px}
+  .learning-cards span{font-size:11px}.learning-cards b{font-size:14px}.learning-cards p{font-size:13px}
+  .care-map span{font-size:11px}.care-map b{font-size:16px}.care-map p{font-size:14px}.shared-goal small{font-size:10px}.shared-goal span{font-size:12px}
+  .focused-copy>strong{font-size:15px}.focused-copy>p:last-child{font-size:14px}.process article span{font-size:10px}.process article b{font-size:13px}.process article p{font-size:11px}
+  .access-flow b{font-size:11px}.access-flow p{font-size:12px}.trust{font-size:12px}
+  .vision .safe{font-size:14px}.vision footer{font-size:11px}
+  .notes-toggle{font-size:10px}.hint{font-size:9px}.speaker-notes p{font-size:18px}
+  .reel-meta span{font-size:10px}.sound{font-size:9px}.clip-picker button{font-size:9px}.transport time{font-size:8px}
+}
+
+@media(min-width:1500px){
+  .slide{padding-left:9vw;padding-right:9vw}.intro{padding-left:8vw}
+  .about-grid{gap:48px}.learning-cards article{padding:28px}.care-map article{min-height:245px;padding:30px}
+  .process article{width:165px;padding:20px}.access-flow{gap:18px}
+}
+
+@media(min-width:651px) and (max-width:900px){
+  .brand{font-size:9px}.count{font-size:17px}.count i{font-size:10px}.kicker{font-size:10px}
+  .translation{font-size:12px}.identity small{font-size:11px}
+  .about-grid label{font-size:10px}.about-grid strong{font-size:15px}.about-grid p{font-size:12px}.about-grid small{font-size:10px}
+  .learning-cards b{font-size:12px}.learning-cards p{font-size:11px}
+  .care-map article{padding:20px}.care-map b{font-size:13px}.care-map p{font-size:11px}
+  .focused-copy>p:last-child{font-size:12px}.process article{width:125px}.process article p{font-size:10px}
+  .access-flow p{font-size:10px}.trust{font-size:11px}.vision footer{font-size:10px}
+}
+
+@media(max-width:650px){
+  .topbar{left:5vw;right:5vw}.mark{width:38px;height:38px;font-size:19px}.count{font-size:17px}.count i{font-size:10px}
+  .slide{padding-left:6vw;padding-right:6vw}.kicker{margin-bottom:16px;font-size:9px;line-height:1.4;letter-spacing:2px}
+  .keywords{gap:9px;font-size:14px;flex-wrap:wrap}.translation{font-size:10px;line-height:1.5;letter-spacing:1.4px}
+  .identity strong{font-size:14px;line-height:1.45}.identity small{font-size:10px;line-height:1.45}
+  .about-grid{gap:12px}.about-grid article{padding-top:10px}.about-grid label{margin-bottom:8px;font-size:9px}.about-grid strong{font-size:12px;line-height:1.35}.about-grid p{margin:7px 0;font-size:10px;line-height:1.45}.about-grid small{font-size:9px;line-height:1.35}
+  .learning-title{width:100%}.learning-cards{top:37vh}.learning-cards article{padding:12px 9px}.learning-cards span{font-size:9px}.learning-cards b{margin:10px 0 6px;font-size:10px;line-height:1.25}.learning-cards p{font-size:9px;line-height:1.45}.learning-film{height:31vh;opacity:.68}
+  .integrated h2{font-size:11vw}.care-map{margin-top:3.5vh}.care-map article{min-height:205px;padding:13px 10px}.care-map span{font-size:9px}.care-map b{margin:15px 0 10px;font-size:10.5px;line-height:1.25;letter-spacing:.3px}.care-map p{font-size:9.5px;line-height:1.55}.shared-goal{margin-top:3vh}.shared-goal small{font-size:8px}.shared-goal strong{font-size:14px;line-height:1.45}.shared-goal span{font-size:9px;line-height:1.45}
+  .focused-copy>strong{font-size:11px;line-height:1.4;letter-spacing:2px}.focused-copy>p:last-child{font-size:10.5px;line-height:1.55}.process article span{font-size:8px}.process article b{font-size:10px}.process article p{font-size:9px;line-height:1.35}
+  .awareness-copy{width:55vw}.awareness h2{font-size:12vw}.access-flow{width:100%;margin-top:20px}.access-flow article{padding-top:8px}.access-flow b{font-size:9px}.access-flow p{margin:5px 0 10px;font-size:9.5px;line-height:1.35}.trust{width:100%;margin-top:14px;font-size:9px;line-height:1.45;letter-spacing:1px}.showreel{width:41vw}
+  .vision .safe{font-size:10px;line-height:1.5;letter-spacing:2px}.vision blockquote{font-size:15px}.vision footer{max-width:88vw;font-size:9px;line-height:1.5;letter-spacing:1px}
+  .notes-toggle{font-size:9px}.speaker-notes small{font-size:9px}.speaker-notes p{margin-right:28px;font-size:14px;line-height:1.7}
+  .clip-picker button{font-size:8px}.transport time{min-width:53px;font-size:7px}.sound{font-size:8px}
+}
+
+@media(max-width:430px){
+  .intro h1{font-size:10.5vw}.portrait{width:70vw;opacity:.72}
+  .about h2,.learning h2{font-size:9.5vw}.about-grid{grid-template-columns:1fr 1fr}
+  .care-map article{min-height:190px;padding-left:8px;padding-right:8px}.care-map b{font-size:9.5px}.care-map p{font-size:9px}
+  .process{bottom:6vh}.process article{padding:9px 7px}.process article p{font-size:8.5px}
+  .showreel{right:1.5vw;width:42vw}.reel-controls{left:8px;right:8px;padding:8px}
+}
